@@ -1,0 +1,86 @@
+.health__header {
+  font-family: $ff-trebuchet;
+  font-size: 3.125rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  margin-top: 0;
+  margin-bottom: 18px;
+  @media (max-width: 1050px) {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+
+.health__center {
+  display: flex;
+  @media (max-width: 1050px) {
+    display: block;
+  }
+}
+
+.health__main .health__paragraph--bold {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.health__main {
+  margin-right: 60px;
+  @media (max-width: 1050px) {
+    margin: 10px;
+  }
+}
+
+
+.health__main p {
+  font-size: 14px;
+}
+
+.health__paragraph--indent {
+  margin-left: 30px;
+  padding: 10px;
+  background-color: #F2FBFE;
+  border-left: 3px solid #48CAF3;
+}
+
+.health__item {
+  font-size: 14px;
+}
+
+.health__main .health__footer {
+  font-size: 18px;
+  font-weight: 700;
+  color: red;
+}
+
+.health__aside {
+  min-width: 220px;
+  margin-top: 230px;
+  @media (max-width: 1050px) {
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+
+.health__aside-number {
+  color: #777777;
+  font-family: $ff-trebuchet;
+  font-size: 6.25rem;
+  line-height: 6.35rem;
+  margin-bottom: 5px;
+}
+
+.health__aside-whr {
+  font-family: $ff-trebuchet;
+  font-size: 1.875rem;
+  line-height: 1.875rem;
+  margin-bottom: 20px;
+}
+
+.health__aside-text {
+  font-family: $ff-trebuchet;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: #767676;
+}

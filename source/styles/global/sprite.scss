@@ -1,0 +1,156 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$footer-facebook-logo-name: 'footer-facebook-logo';
+$footer-facebook-logo-x: 0px;
+$footer-facebook-logo-y: 0px;
+$footer-facebook-logo-offset-x: 0px;
+$footer-facebook-logo-offset-y: 0px;
+$footer-facebook-logo-width: 31px;
+$footer-facebook-logo-height: 31px;
+$footer-facebook-logo-total-width: 93px;
+$footer-facebook-logo-total-height: 90px;
+$footer-facebook-logo-image: '../images/sprite.png';
+$footer-facebook-logo: (0px, 0px, 0px, 0px, 31px, 31px, 93px, 90px, '../images/sprite.png', 'footer-facebook-logo', );
+$footer-google-plus-social-logotype-name: 'footer-google-plus-social-logotype';
+$footer-google-plus-social-logotype-x: 31px;
+$footer-google-plus-social-logotype-y: 0px;
+$footer-google-plus-social-logotype-offset-x: -31px;
+$footer-google-plus-social-logotype-offset-y: 0px;
+$footer-google-plus-social-logotype-width: 31px;
+$footer-google-plus-social-logotype-height: 31px;
+$footer-google-plus-social-logotype-total-width: 93px;
+$footer-google-plus-social-logotype-total-height: 90px;
+$footer-google-plus-social-logotype-image: '../images/sprite.png';
+$footer-google-plus-social-logotype: (31px, 0px, -31px, 0px, 31px, 31px, 93px, 90px, '../images/sprite.png', 'footer-google-plus-social-logotype', );
+$footer-instagram-social-network-logo-of-photo-camera-name: 'footer-instagram-social-network-logo-of-photo-camera';
+$footer-instagram-social-network-logo-of-photo-camera-x: 0px;
+$footer-instagram-social-network-logo-of-photo-camera-y: 31px;
+$footer-instagram-social-network-logo-of-photo-camera-offset-x: 0px;
+$footer-instagram-social-network-logo-of-photo-camera-offset-y: -31px;
+$footer-instagram-social-network-logo-of-photo-camera-width: 31px;
+$footer-instagram-social-network-logo-of-photo-camera-height: 31px;
+$footer-instagram-social-network-logo-of-photo-camera-total-width: 93px;
+$footer-instagram-social-network-logo-of-photo-camera-total-height: 90px;
+$footer-instagram-social-network-logo-of-photo-camera-image: '../images/sprite.png';
+$footer-instagram-social-network-logo-of-photo-camera: (0px, 31px, 0px, -31px, 31px, 31px, 93px, 90px, '../images/sprite.png', 'footer-instagram-social-network-logo-of-photo-camera', );
+$header-facebook-logo-name: 'header-facebook-logo';
+$header-facebook-logo-x: 31px;
+$header-facebook-logo-y: 31px;
+$header-facebook-logo-offset-x: -31px;
+$header-facebook-logo-offset-y: -31px;
+$header-facebook-logo-width: 31px;
+$header-facebook-logo-height: 31px;
+$header-facebook-logo-total-width: 93px;
+$header-facebook-logo-total-height: 90px;
+$header-facebook-logo-image: '../images/sprite.png';
+$header-facebook-logo: (31px, 31px, -31px, -31px, 31px, 31px, 93px, 90px, '../images/sprite.png', 'header-facebook-logo', );
+$header-google-plus-social-logotype-name: 'header-google-plus-social-logotype';
+$header-google-plus-social-logotype-x: 62px;
+$header-google-plus-social-logotype-y: 0px;
+$header-google-plus-social-logotype-offset-x: -62px;
+$header-google-plus-social-logotype-offset-y: 0px;
+$header-google-plus-social-logotype-width: 31px;
+$header-google-plus-social-logotype-height: 31px;
+$header-google-plus-social-logotype-total-width: 93px;
+$header-google-plus-social-logotype-total-height: 90px;
+$header-google-plus-social-logotype-image: '../images/sprite.png';
+$header-google-plus-social-logotype: (62px, 0px, -62px, 0px, 31px, 31px, 93px, 90px, '../images/sprite.png', 'header-google-plus-social-logotype', );
+$header-instagram-social-network-logo-of-photo-camera-name: 'header-instagram-social-network-logo-of-photo-camera';
+$header-instagram-social-network-logo-of-photo-camera-x: 62px;
+$header-instagram-social-network-logo-of-photo-camera-y: 31px;
+$header-instagram-social-network-logo-of-photo-camera-offset-x: -62px;
+$header-instagram-social-network-logo-of-photo-camera-offset-y: -31px;
+$header-instagram-social-network-logo-of-photo-camera-width: 31px;
+$header-instagram-social-network-logo-of-photo-camera-height: 31px;
+$header-instagram-social-network-logo-of-photo-camera-total-width: 93px;
+$header-instagram-social-network-logo-of-photo-camera-total-height: 90px;
+$header-instagram-social-network-logo-of-photo-camera-image: '../images/sprite.png';
+$header-instagram-social-network-logo-of-photo-camera: (62px, 31px, -62px, -31px, 31px, 31px, 93px, 90px, '../images/sprite.png', 'header-instagram-social-network-logo-of-photo-camera', );
+$star-name: 'star';
+$star-x: 0px;
+$star-y: 62px;
+$star-offset-x: 0px;
+$star-offset-y: -62px;
+$star-width: 30px;
+$star-height: 28px;
+$star-total-width: 93px;
+$star-total-height: 90px;
+$star-image: '../images/sprite.png';
+$star: (0px, 62px, 0px, -62px, 30px, 28px, 93px, 90px, '../images/sprite.png', 'star', );
+$spritesheet-width: 93px;
+$spritesheet-height: 90px;
+$spritesheet-image: '../images/sprite.png';
+$spritesheet-sprites: ($footer-facebook-logo, $footer-google-plus-social-logotype, $footer-instagram-social-network-logo-of-photo-camera, $header-facebook-logo, $header-google-plus-social-logotype, $header-instagram-social-network-logo-of-photo-camera, $star, );
+$spritesheet: (93px, 90px, '../images/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

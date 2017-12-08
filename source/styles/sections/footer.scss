@@ -1,0 +1,46 @@
+.footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 52px;
+  font-size: 0.75rem;
+  align-items: center;
+  border-top: 1px solid black;
+
+}
+.footer__text {
+  @media (max-width: 630px) {
+    margin-left: 10px;
+  }
+}
+.footer__text span {
+  color: #1ABDF0;
+
+}
+
+.footer__social--facebook {
+  @include sprite($footer-facebook-logo);
+}
+
+.footer__social--google {
+  @include sprite($footer-google-plus-social-logotype);
+}
+
+.footer__social--instagram {
+  @include sprite($footer-instagram-social-network-logo-of-photo-camera);
+}
+
+.footer .social {
+  margin-left: 0;
+  @media (max-width: 630px) {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.footer__social .social-icon {
+  @media (max-width: 630px) {
+    margin-right: 7px;
+  }
+}

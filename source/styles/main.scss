@@ -1,0 +1,16 @@
+@import "../../node_modules/normalize.scss/normalize";
+
+@import "global/mixins";
+@import "global/fonts";
+@import "global/vars";
+@import "global/base";
+@import "global/common";
+@import "global/sprite";
+
+@import "sections/header";
+@import "sections/hotel";
+@import "sections/offers";
+@import "sections/table";
+@import "sections/health";
+@import "sections/footer";
+

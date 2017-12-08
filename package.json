@@ -1,0 +1,42 @@
+{
+  "name": "SunTour",
+  "version": "1.0.0",
+  "description": "\"# SunTour\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "SunTour"
+  ],
+  "author": "Dmitry Dvernikov",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp.spritesmith": "^6.3.0",
+    "rimraf": "^2.6.1"
+  },
+  "dependencies": {
+    "normalize.scss": "^0.1.0"
+  }
+}
